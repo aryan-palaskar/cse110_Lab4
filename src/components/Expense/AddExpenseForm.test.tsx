@@ -13,7 +13,7 @@ test('should add a new expense and update Remaining and Spent values', () => {
     </AppProvider>
   );
 
-  const initialBudget = 1000; // Updated to match the initial budget in AppContext
+  const initialBudget = 2000; // Updated to match the initial budget in AppContext
   
   // Verify the initial remaining balance is equal to the budget
   expect(screen.getByText(`Remaining: $${initialBudget}`)).toBeInTheDocument();
